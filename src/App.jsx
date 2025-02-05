@@ -7,10 +7,8 @@ import Welcome from "./components/Welcome";
 function App() {
   return (
     <>
-      <div>
-        <CustomNavbar />
-        <Welcome />
-      </div>
+      <CustomNavbar />
+      <Welcome />
       <AllTheBooks />
       <CustomFooter />
     </>
